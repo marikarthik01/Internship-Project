@@ -5,7 +5,8 @@
 
 .serve{
     width: 100%;
-  
+    height:110vh;
+
 }
 .serve-content{
     width: 90%;
@@ -53,23 +54,18 @@
     left: 30px;
     top: 881px;
     text-align: justify;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
     font-size: 100%;
-    line-height: 22px;
-    
+    line-height: 22px; 
     color: #3A3A3A;
 }
 .serve-box{
     position: absolute;
-width: 100%;
-height: 143px;
-left: -2px;
-top: 1059px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 143px;
+    left: -2px;
+    top: 1059px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
 }
 .serve-head{
     position: absolute;
@@ -93,7 +89,7 @@ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
     left: 30px;
     top: 1281px;
     text-align: justify;
-    font-family: Montserrat;
+    
     font-style: normal;
     font-weight: normal;
     font-size: 100%;
@@ -105,7 +101,8 @@ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
 @media (max-width:360px)  { 
     .serve{
         width: 100%;
-        
+        height: 100vh!important;
+
     }
     .shopcart-icon{
         margin: auto;
@@ -113,7 +110,7 @@ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
         display: block;
     }
     .heart-icon{
-        margin-top: 60%!important;
+        margin-top: 80%!important;
         display: block;
     }
     .bulb-icon{
@@ -139,7 +136,8 @@ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
     }
     .serve{
         width: 100%;
-      
+        height: 80vh!important;
+
     }
     .heart-icon{
         margin-left: 20%;
@@ -171,7 +169,8 @@ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
 @media (max-width:1200px) {
     .serve{
         width: 100%;
-        
+        height: 100vh;
+
     }
     b {
         margin-left: -50%;

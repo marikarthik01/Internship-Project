@@ -198,6 +198,10 @@ color: #000000;
             height: 41px;
             right:10%;                      
        }
+    .btn-text{
+        left: 1px!important;
+
+    }
  }
 
 
@@ -231,9 +235,16 @@ color: #000000;
 
 
 }
-@media (max-width:1200px)  {
-    .btn-text{
-        left: 1px!important;
-
+@media (max-width:360px)  {
+      .box{
+          margin-top: 30px;
+      }
+      button {
+        position: absolute;
+        width: 30%;
+        margin-top: 10px!important;
+        
+        height: 41px;
+        left: -15%!important;
     }
 }
